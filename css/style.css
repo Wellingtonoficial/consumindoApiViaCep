@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+section{
+    width: 85%;
+    max-width: 400px;
+}
+section h1{
+    margin-bottom: 20px;
+    color: rgb(44, 194, 144);
+}
+.caixaPesquisa{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.caixaPesquisa input{
+    width: 200px;
+    height: 30px;
+    border: solid 1px rgb(44, 194, 144);
+    outline: none;
+    margin: 10px 0 10px 0;
+}
+.caixaPesquisa button{
+    width: 200px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    background: rgb(149, 213, 255);
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+
+#resultado{
+    width: 100%;
+    padding: 10px;
+    background: #eeeeee;
+    border-radius: 7px;
+}
+#resultado h4{
+    font-size: 1.1rem;
+    color: rgb(48, 47, 47);
+}
+#resultado p{
+    margin: 0 0 6px 0;
+    color: rgb(48, 47, 47);
+}
+
+
+footer{
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+footer p{
+    font-size: 12px;
+}
